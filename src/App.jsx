@@ -10,7 +10,6 @@ const App = () => {
     console.log(event.target.value);
     console.log(event.target.name);
 
-    // console.log(event.target.placeholder);
     const value = event.target.value;
     const name = event.target.name;
 
@@ -32,7 +31,7 @@ const App = () => {
 
   const onSubmit = (event) => {
     event.preventDefault();
-    alert("form submitted");
+    alert("Form Submitted");
   };
 
   return (
